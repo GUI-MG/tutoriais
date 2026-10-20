@@ -120,7 +120,7 @@ sudo systemctl stop apache2
 sudo systemctl disable apache2
 ```
 
-- Caso seja algum processo fantasma ou instância travada, pode-se encerrá-lo utilizando o PID obtido:
+- Caso seja algum processo fantasma ou instância travada, pode-se encerrá-lo utilizando o PID obtido no uso do comando disposto na seção `Curiosidade`:
 
 ```bash
 sudo kill -9 pid_obtido
