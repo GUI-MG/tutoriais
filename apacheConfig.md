@@ -43,13 +43,13 @@ sudo ufw allow 'Apache Full'
 
 ### Passo 4: configurar a aplicação
 
-Primeiramente, precisa-se colocar os arquivos de sua aplicação dnetro da pasta web do Apache:
+Primeiramente, precisa-se colocar os arquivos de sua aplicação dentro da pasta web do Apache:
 
 ```bash
 cd /var/www/html/
 ```
 
-Remova a pasta padrão de boas-vindas:
+Remova o arquivo padrão de boas-vindas:
 
 ```bash
 sudo rm index.html
