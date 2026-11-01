@@ -92,7 +92,7 @@ Para a ativação do site criado, tens de criar um link simbólico para a pasta 
 - Criação do link simbólico:
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/meusite /etc/nginx/sties-enabled/
+sudo ln -s /etc/nginx/sites-available/meusite /etc/nginx/sites-enabled/
 ```
 
 - **Obs.:** Antes de reiniciar o Nginx, **sempre teste** se há **erros de sintaxe** na configuração:
